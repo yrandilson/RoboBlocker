@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_logs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:paddingBottom="72dp" />
+
+    <TextView
+        android:id="@+id/tv_empty_logs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Nenhum histórico ainda\nAs chamadas analisadas aparecerão aqui"
+        android:textAlignment="center"
+        android:textColor="@color/on_surface_secondary"
+        android:textSize="16sp"
+        android:visibility="gone" />
+</FrameLayout>

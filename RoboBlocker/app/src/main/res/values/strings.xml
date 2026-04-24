@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RoboBlocker</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_blocklist">Lista Negra</string>
+    <string name="nav_logs">Histórico</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="protection_active">Proteção Ativa</string>
+    <string name="protection_inactive">Proteção Inativa</string>
+    <string name="total_blocked">Total Bloqueados</string>
+    <string name="blocked_today">Bloqueados Hoje</string>
+    <string name="blocklist_size">Na Lista Negra</string>
+</resources>

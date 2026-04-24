@@ -1,0 +1,6 @@
+-keep class com.roboblocker.** { *; }
+-keep class com.roboblocker.ai.ClaudeAIAnalyzer$** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn okio.**

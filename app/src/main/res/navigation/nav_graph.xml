@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.roboblocker.ui.dashboard.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/blocklistFragment"
+        android:name="com.roboblocker.ui.blocklist.BlocklistFragment"
+        android:label="Lista Negra" />
+
+    <fragment
+        android:id="@+id/logsFragment"
+        android:name="com.roboblocker.ui.logs.LogsFragment"
+        android:label="Histórico" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.roboblocker.ui.settings.SettingsFragment"
+        android:label="Configurações" />
+</navigation>

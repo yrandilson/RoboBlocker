@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1A1A2E</color>
+    <color name="primary_variant">#16213E</color>
+    <color name="secondary">#0F3460</color>
+    <color name="accent">#E94560</color>
+    <color name="surface">#1E1E2E</color>
+    <color name="surface_variant">#252535</color>
+    <color name="on_surface">#E0E0E0</color>
+    <color name="on_surface_secondary">#9E9E9E</color>
+
+    <color name="red_dark">#7B1E1E</color>
+    <color name="red_accent">#E94560</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="green_accent">#4CAF50</color>
+    <color name="blue_accent">#2196F3</color>
+    <color name="yellow_accent">#FFC107</color>
+    <color name="purple_accent">#9C27B0</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#2A2A3E</color>
+</resources>
